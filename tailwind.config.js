@@ -36,7 +36,21 @@ export default {
         'card': "url('assets/images/thumbnail-background.svg')",
       },
       screens: {
-        "wide": "1440px"
+        "wide": "1440px",
+        'sm': '580px',//'640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '700px',//'768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '800px',//'1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1024px',//'1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
       }
     },
   },

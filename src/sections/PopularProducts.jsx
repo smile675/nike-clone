@@ -4,7 +4,6 @@ const PopularProducts = () => {
   return (
     <div>
         Popular Products
-      
     </div>
   )
 }
